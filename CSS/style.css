@@ -1,0 +1,19 @@
+h1 {
+  color: rgb(253, 0, 0);
+  font-family: Verdana;
+  font-size: 64px;
+}
+h3 {
+  color: rgb(105, 0, 105);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 32px;
+}
+#main {
+  font-size: 42px;
+  color: orangered;
+}
+div {
+  height: 400px;
+  width: 50%;
+}

@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>table</title>
+        <style>
+            table,th,td {
+                border: 1px solid white;
+                color:white;
+                border-collapse:collapse ;
+                text-align: center;
+                                padding: 20px;
+            }
+            th{
+                background-color: rgb(92, 31, 31);
+                color: blue;
+            }
+        </style>
+    </head>
+    <body style="background-color:black;">
+        <center>
+            <h1 style="color: white;">Table Example</h1> 
+            <table>
+                <thead><!-- <thead> = t-head -->
+                    <tr>
+                        <th>S.no.</th>
+                        <th>Car Model</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>Audi A8</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Mercedies S Class</td>
+                        <td rowspan="2">2020</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>BMW 7 Series</td>
+                        
+                    </tr>
+                    <tr>
+                        <th colspan="3">Total Cars: 03</th>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+    </body>
+</html>
